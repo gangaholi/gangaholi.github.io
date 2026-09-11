@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Ganga Holi | Academic & Research Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://tailwindcss.com"></script>
+    <!-- FontAwesome for Academic Icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <style>
+        html { scroll-behavior: smooth; }
+        .accent-gradient { background: linear-gradient(135deg, #1e3a8a 0%, #0d9488 100%); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-teal-500 selection:text-white">
+
+    <!-- STICKY HEADER -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold tracking-tight text-slate-900">Dr. Ganga Holi</span>
+                    <span class="ml-2 px-2 py-0.5 text-xs font-semibold bg-teal-100 text-teal-800 rounded-full hidden sm:inline-block">Professor, CSE</span>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center text-sm font-medium text-slate-600">
+                    <a href="#about" class="hover:text-teal-600 transition">About</a>
+                    <a href="#experience" class="hover:text-teal-600 transition">Experience</a>
+                    <a href="#education" class="hover:text-teal-600 transition">Education</a>
+                    <a href="#publications" class="hover:text-teal-600 transition">Publications</a>
+                    <a href="#skills" class="hover:text-teal-600 transition">Certifications & Skills</a>
+                    <a href="#contact" class="px-4 py-2 bg-slate-900 text-white text-xs font-semibold rounded-lg hover:bg-teal-700 transition shadow-sm">Contact</a>
+                </div>
+                <div class="flex items-center md:hidden">
+                    <button id="menu-toggle" class="text-slate-600 hover:text-slate-900 focus:outline-none">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-4 space-y-2 text-sm font-medium text-slate-600">
+            <a href="#about" class="block py-2 hover:text-teal-600">About</a>
+            <a href="#experience" class="block py-2 hover:text-teal-600">Experience</a>
+            <a href="#education" class="block py-2 hover:text-teal-600">Education</a>
+            <a href="#publications" class="block py-2 hover:text-teal-600">Publications</a>
+            <a href="#skills" class="block py-2 hover:text-teal-600">Certifications</a>
+            <a href="#contact" class="block py-2 text-center bg-slate-900 text-white rounded-lg">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HERO PROFILE BANNER -->
+    <header id="hero" class="bg-white border-b border-slate-100 py-16 lg:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+            <div class="lg:col-span-2 space-y-6">
+                <div class="inline-flex items-center gap-2 px-3 py-1 bg-slate-100 text-slate-800 text-xs font-semibold rounded-full">
+                    <span class="w-2 h-2 rounded-full bg-teal-500 animate-pulse"></span> Available for Research Collaborations
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900">
+                    Dr. Ganga Holi <span class="text-teal-600 text-3xl sm:text-4xl block mt-2 font-semibold">Ph.D. in Computer Science & Engineering</span>
+                </h1>
+                <p class="text-base sm:text-lg text-slate-600 max-w-2xl font-light leading-relaxed">
+                    Senior Academic Leader and Researcher with over <strong class="font-semibold text-slate-900">30+ years of teaching expertise</strong>, <strong class="font-semibold text-slate-900">15+ years of dedicated research</strong>, and deep industry specialization in hands-on **Machine Learning & NLP** workflows. Proven excellence driving national academic accreditations (**NBA/NAAC**) and managing university departments as Head of Department.
+                </p>
+                
+                <!-- Academic Badges/Links -->
+                <div class="flex flex-wrap gap-3 pt-2">
+                    <a href="https://google.co.in" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 border border-slate-200 rounded-lg text-xs font-medium bg-white text-slate-700 shadow-sm hover:bg-slate-50 transition">
+                        <i class="fa-solid fa-graduation-cap text-blue-600 text-sm"></i> Google Scholar
+                    </a>
+                    <a href="https://scopus.com" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 border border-slate-200 rounded-lg text-xs font-medium bg-white text-slate-700 shadow-sm hover:bg-slate-50 transition">
+                        <i class="fa-solid fa-book-open text-orange-600 text-sm"></i> Scopus Index
+                    </a>
+                    <a href="http://orcid.org" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 border border-slate-200 rounded-lg text-xs font-medium bg-white text-slate-700 shadow-sm hover:bg-slate-50 transition">
+                        <i class="fa-brands fa-orcid text-emerald-600 text-sm"></i> ORCID Profile
+                    </a>
+                </div>
+            </div>
+
+            <!-- Meta Quick-Info Box -->
+            <div class="accent-gradient text-white rounded-2xl p-8 shadow-xl space-y-6 relative overflow-hidden">
+                <h3 class="text-lg font-bold tracking-tight border-b border-white/20 pb-3">Academic Identifiers</h3>
+                <div class="space-y-3.5 text-xs">
+                    <div class="flex justify-between">
+                        <span class="text-slate-300">Vidwan-ID</span>
+                        <span class="font-mono font-bold">147504</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-slate-300">Orcid ID</span>
+                        <span class="font-mono">0000-0003-4797-5887</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-slate-300">Scopus Author ID</span>
+                        <span class="font-mono">56857615100</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-slate-300">Current Affiliation</span>
+                        <span class="font-semibold text-right">Professor, Alliance University</span>
+                    </div>
+                </div>
+                <div class="pt-2">
+                    <a href="#contact" class="block w-full py-2.5 bg-white text-slate-900 hover:bg-teal-50 transition rounded-lg font-bold text-center text-xs shadow-sm">
+                        Request Collaboration
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- CORE COUNTERS & METRICS -->
+    <section id="about" class="py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div class="bg-white border border-slate-100 rounded-xl p-5 shadow-sm text-center">
+                <div class="text-3xl font-extrabold text-slate-900 mb-1">30+</div>
+                <div class="text-xs font-medium text-slate-500 uppercase tracking-wider">Years Teaching</div>
+            </div>
+            <div class="bg-white border border-slate-100 rounded-xl p-5 shadow-sm text-center">
+                <div class="text-3xl font-extrabold text-teal-600 mb-1">15+</div>
+                <div class="text-xs font-medium text-slate-500 uppercase tracking-wider">Years Research</div>
+            </div>
+            <div class="bg-white border border-slate-100 rounded-xl p-5 shadow-sm text-center">
+                <div class="text-3xl font-extrabold text-slate-900 mb-1">21</div>
+                <div class="text-xs font-medium text-slate-500 uppercase tracking-wider">Journal Papers</div>
+            </div>
+            <div class="bg-white border border-slate-100 rounded-xl p-5 shadow-sm text-center">
+                <div class="text-3xl font-extrabold text-teal-600 mb-1">20+</div>
+                <div class="text-xs font-medium text-slate-500 uppercase tracking-wider">Conference Papers</div>
+            </div>
+        </div>
+
+        <!-- Research Domains -->
+        <div class="mt-12 bg-white rounded-2xl border border-slate-100 p-8 shadow-sm">
+            <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <i class="fa-solid fa-microscope text-teal-600"></i> Core Research & Administrative Focus
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm leading-relaxed text-slate-600">
+                <div class="space-y-4">
+                    <p>
+                        <strong class="text-slate-900 block mb-1">Image Processing & Historical Document Automation:</strong> 
+                        Specialized Ph.D. roadmap analyzing degraded historical documents, line extraction from palm script documents, and digital binarization algorithms.
+                    </p>
+                    <p>
+                        <strong class="text-slate-900 block mb-1">Advanced Machine Learning & Applied NLP:</strong> 
